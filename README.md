@@ -25,7 +25,11 @@ Based on our analysis, we will draw conclusions and make recommendations for how
 
 **Team Members**
 
-Our team consists of five members, each with unique skills and expertise that make us a formidable team. We have a clear definition of each team member's role in this project, and we work collaboratively to ensure that each member contributes effectively to the project.
+*Ibrahim Nabid
+*Nafisa Raisa
+*Fiza Metla
+*Marisabel Santiago
+*Sarah Rancic
 
 **Submission**
 
