@@ -1,7 +1,7 @@
 # Breast-Cancer-Data-Analysis
-**Breast Cancer Dataset Analysis Project**
+***Breast Cancer Dataset Analysis Project***
 
-Welcome to our final group project for the CISC 4631 Data Mining course in Spring 2023. Our team consists of five members who are passionate about data mining and using it to solve real-world problems. In this project, we will be analyzing the Breast Cancer Dataset to identify patterns and relationships in the data, as well as to make predictions about future outcomes.
+Welcome to our final group project for the CISC 4631 Data Mining course in Spring 2023. Our team consists of five members who are passionate about data mining and using it to solve real-world problems. In this project, we will be analyzing the Breast Cancer Dataset to identify patterns and relationships in the data, as well as to make predictions about future outcomes. We aim to draw conclusions and make recommendations for how the healthcare industry can use this information to improve breast cancer treatment and outcomes. We will also discuss the limitations of our analysis and potential areas for future research.
 
 ***Team Members***
 
@@ -17,31 +17,23 @@ The Breast Cancer Dataset contains data on breast cancer patients, including fea
 
 **Data Processing**
 
-Before performing data mining techniques, we will first process the data to ensure that it is clean and ready for analysis. This will involve a comprehensive data cleaning process, which includes checking for missing values, dealing with outliers, and performing feature engineering as needed. We will also perform exploratory data analysis (EDA) to understand the distribution of data and identify any underlying patterns or trends.
+Before performing data mining techniques, we first processed the data to ensure that it is clean and ready for analysis. This involves a comprehensive data cleaning process, which includes checking for missing values, dealing with outliers, and performing feature engineering as needed. 
 
 **Data Mining Techniques**
 
-We will use various data mining techniques, such as classification, clustering, and association rule mining, to analyze the Breast Cancer Dataset. These techniques will help us to identify patterns and relationships in the data, as well as to make predictions about future outcomes. We will also leverage machine learning algorithms, such as decision trees and neural networks, to build predictive models that can help the healthcare industry in improving breast cancer treatment and outcomes.
+We will use various data mining techniques, such as classification, clustering, and association rule mining, to analyze the Breast Cancer Dataset. These techniques will help us to identify patterns and relationships in the data, as well as to make predictions about future outcomes. 
 
 **Performance Evaluation**
 
-To evaluate the performance of our data mining techniques, we will use various metrics such as accuracy, precision, recall, and F1 score. We will also perform cross-validation to ensure that our results are reliable and robust. We will use visualization techniques to communicate our findings effectively and make it easier for the audience to interpret the results.
+To evaluate the performance of our data mining techniques, we used various metrics such as accuracy, precision, recall, and F1 score. We also performed cross-validation to ensure that our results are reliable and robust. We used visualization techniques to communicate our findings effectively and make it easier for the audience to interpret the results.
 
 **Final Findings**
 
-Based on our analysis, we will draw conclusions and make recommendations for how the healthcare industry can use this information to improve breast cancer treatment and outcomes. We will also discuss the limitations of our analysis and potential areas for future research.
 
-**Team Members**
-
-* Ibrahim Nabid
-* Nafisa Raisa
-* Fiza Metla
-* Marisabel Santiago
-* Sarah Rancic
 
 **Submission**
 
-We will submit our report in e-copy and present it in class as the final exam of this course. We will also submit the PowerPoint slides after the presentation. We will make our project code and documentation available on GitHub, where potential employers can view our work and see our commitment to open-source practices.
+We will make our project code and documentation available on GitHub, where anyone can view our work and see our commitment to open-source practices.
 
 **Grading Policy**
 
