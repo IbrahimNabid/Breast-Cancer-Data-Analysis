@@ -25,11 +25,11 @@ Based on our analysis, we will draw conclusions and make recommendations for how
 
 **Team Members**
 
-*Ibrahim Nabid
-*Nafisa Raisa
-*Fiza Metla
-*Marisabel Santiago
-*Sarah Rancic
+* Ibrahim Nabid
+* Nafisa Raisa
+* Fiza Metla
+* Marisabel Santiago
+* Sarah Rancic
 
 **Submission**
 
