@@ -3,6 +3,14 @@
 
 Welcome to our final group project for the CISC 4631 Data Mining course in Spring 2023. Our team consists of five members who are passionate about data mining and using it to solve real-world problems. In this project, we will be analyzing the Breast Cancer Dataset to identify patterns and relationships in the data, as well as to make predictions about future outcomes.
 
+***Team Members***
+
+* Ibrahim Nabid
+* Nafisa Raisa
+* Fiza Metla
+* Marisabel Santiago
+* Sarah Rancic
+
 **Dataset**
 
 The Breast Cancer Dataset contains data on breast cancer patients, including features such as age, tumor size, tumor grade, lymph node status, and more. This dataset is widely used in the healthcare industry and is available on the internet. We will be using Python, one of the most popular programming languages for data analysis, to process and analyze this dataset.
