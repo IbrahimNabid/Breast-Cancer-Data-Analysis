@@ -37,6 +37,6 @@ We will make our project code and documentation available on GitHub, where anyon
 
 **Grading Policy**
 
-Our grade for this project will be based on the quality of the project (80%) and the performance of teamwork (20%). We will ensure that we meet all project requirements and exceed expectations to achieve the highest possible grade. We will also use this project as an opportunity to learn and grow as data scientists and work towards building a successful career in this field.
+Our grade for this project will be based on the quality of the project (80%) and the performance of teamwork (20%). We will ensure that we meet all project requirements and exceed expectations. We will also use this project as an opportunity to learn and grow as data scientists and work towards building a successful career in this field.
 
 Thank you for taking the time to review our project. We hope that you find our work as insightful. Please feel free to reach out to us if you have any questions or comments.
