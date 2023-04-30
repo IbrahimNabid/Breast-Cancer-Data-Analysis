@@ -13,10 +13,10 @@ from google.colab import files
 uploaded = files.upload()
 df = pd.read_csv(io.BytesIO(uploaded['diabetes.csv']))
 
-df.info()
+print(df.info())
 
-X = df
-X.head()
+X = df.iloc[:,1:22]
+print(X.head())
 
 Diabetes_Category = {} # a dictionary with key-value pairs 
 Diabetes_Category['feature_names'] = X.columns.values
@@ -27,18 +27,18 @@ X
 
 Diabetes_Category['data']=X
 
-Y = df
+Y = df.iloc[:,0:1]
 Diabetes_Category['target_names']=Y['Diabetes_binary'].unique()
 Diabetes_Category['target']=Y["Diabetes_binary"].values
 
-Diabetes_Category['target_names']
+print(Diabetes_Category['target_names'])
 
-Diabetes_Category['target']
+print(Diabetes_Category['target'])
 
 NB_C = CategoricalNB()
 
-scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
-scores_NBC
+scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10000, scoring='accuracy')
+print(scores_NBC)
 
 #mean and 95% confidence level
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
