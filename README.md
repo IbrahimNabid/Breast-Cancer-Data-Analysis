@@ -21,7 +21,7 @@ Before performing data mining techniques, we first processed the data to ensure 
 
 **Data Mining Techniques**
 
-Our group has started working on the Breast Cancer Dataset and have performed cross-validation of different classification models including decision tree, k-neighbors, naive Bayes, and random forest. By applying these techniques, we hope to identify patterns and relationships in the data, as well as make accurate predictions about future outcomes.
+Our group has started working on a Diabetas Dataset containing patient information and diabetas outcomes. We have performed cross-validation of different classification models including decision tree, k-neighbors, naive Bayes, and random forest. By applying these techniques, we hope to identify patterns and relationships in the data, as well as make accurate predictions about future outcomes.
 
 **Final Findings**
 
