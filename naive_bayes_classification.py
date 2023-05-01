@@ -15,6 +15,7 @@ df = pd.read_csv(io.BytesIO(uploaded['diabetes.csv']))
 
 print(df.info())
 
+#for the entire dataset (all features)
 X = df.iloc[:,1:22]
 print(X.head())
 
