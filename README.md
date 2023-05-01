@@ -21,19 +21,15 @@ Before performing data mining techniques, we first processed the data to ensure 
 
 **Data Mining Techniques**
 
-We will use various data mining techniques, such as classification, clustering, and association rule mining, to analyze the Breast Cancer Dataset. These techniques will help us to identify patterns and relationships in the data, as well as to make predictions about future outcomes. 
-
-**Performance Evaluation**
-
-To evaluate the performance of our data mining techniques, we used various metrics such as accuracy, precision, recall, and F1 score. We also performed cross-validation to ensure that our results are reliable and robust. We used visualization techniques to communicate our findings effectively and make it easier for the audience to interpret the results.
+Our group has started working on the Breast Cancer Dataset and have performed cross-validation of different classification models including decision tree, k-neighbors, naive Bayes, and random forest. By applying these techniques, we hope to identify patterns and relationships in the data, as well as make accurate predictions about future outcomes.
 
 **Final Findings**
 
 # In progress #
 
-**Submission**
+**Future Plans**
 
-We will make our project code and documentation available on GitHub, where anyone can view our work and see our commitment to open-source practices.
+We will make our project code and documentation available on GitHub, where anyone can view our work and see our commitment to open-source practices. We also plan to create an mobile app based on this data mining to help diabetic patients make better healthcare decisions in the future.
 
 **Grading Policy**
 
