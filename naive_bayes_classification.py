@@ -41,7 +41,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 NB_C = CategoricalNB()
 NB_C.fit(X_train, y_train)
 
-scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10000, scoring='accuracy')
+scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10, scoring='accuracy')
 print(scores_NBC)
 
 #mean and 95% confidence level
@@ -86,7 +86,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 NB_C = CategoricalNB()
 NB_C.fit(X_train, y_train)
 
-scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10000, scoring='accuracy')
+scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10, scoring='accuracy')
 scores_NBC
 
 #mean and 95% confidence level
