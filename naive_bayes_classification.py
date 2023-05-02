@@ -36,7 +36,10 @@ print(Diabetes_Category['target_names'])
 
 print(Diabetes_Category['target'])
 
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+
 NB_C = CategoricalNB()
+NB_C.fit(X_train, y_train)
 
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10000, scoring='accuracy')
 print(scores_NBC)
@@ -78,7 +81,10 @@ Diabetes_Category['target_names']
 
 Diabetes_Category['target']
 
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+
 NB_C = CategoricalNB()
+NB_C.fit(X_train, y_train)
 
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=10000, scoring='accuracy')
 scores_NBC
