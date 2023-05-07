@@ -42,7 +42,7 @@ NB_C = CategoricalNB()
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 print(scores_NBC)
 
-#mean and 95% confidence level
+#accuracy: mean and 95% confidence level
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
@@ -90,7 +90,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 print(scores_NBC)
 
-#mean and 95% confidence level
+#accuracy: mean and 95% confidence level
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict_new= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
@@ -138,7 +138,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 scores_NBC
 
-#mean and 95% confidence level of accuracy
+#accuracy: mean and 95% confidence level of accuracy
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict_new2= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
