@@ -52,6 +52,10 @@ y_pred=NB_C.predict(X_test)
 precision=precision_score(y_test, y_pred)
 print("Precision:", precision)
 
+#recall score
+recall=recall_score(y_test, y_pred)
+print("Recall:", recall)
+
 df=df.iloc[0:70692]
 df['predict_all']= y_predict
 print(df)
@@ -100,6 +104,10 @@ y_pred=NB_C.predict(X_test)
 precision=precision_score(y_test, y_pred)
 print("Precision:", precision)
 
+#recall score
+recall=recall_score(y_test, y_pred)
+print("Recall:", recall)
+
 df_new=df_new.iloc[0:70692]
 df_new['predict_top10']= y_predict_new
 print(df_new)
@@ -147,6 +155,10 @@ y_pred=NB_C.predict(X_test)
 #precision score
 precision=precision_score(y_test, y_pred)
 print("Precision:", precision)
+
+#recall score
+recall=recall_score(y_test, y_pred)
+print("Recall:", recall)
 
 df_new2=df_new2.iloc[0:70692]
 df_new2['predict_top15']= y_predict_new2
