@@ -1,6 +1,6 @@
 #library import and dataset upload
 import sklearn.naive_bayes
-from sklearn.metrics import precision_score
+from sklearn.metrics import precision_score, recall_score
 from sklearn.naive_bayes import CategoricalNB
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.model_selection import cross_val_score
@@ -11,8 +11,18 @@ import matplotlib.pyplot as plt
 import io
 from google.colab import files
 uploaded = files.upload()
-df = pd.read_csv(io.BytesIO(uploaded['diabetes.csv']))
+df= pd.read_csv(io.BytesIO(uploaded['diabetes5050.csv']))
 df.info()
+
+#change dtype for BMI based on arbitrary categories
+  #0=underweight
+  #1=normal weight
+  #2=overweight
+  #3=obese
+#df['BMI']=df['BMI'].astype('float')
+bins=[0,18.5,25,30,100]
+labels=[0,1,2,3]
+df['BMI']=pd.cut(df['BMI'], bins=bins, labels=labels)
 
 ###naive bayes classification using all features
 X = df.iloc[:,1:22]
@@ -42,7 +52,7 @@ NB_C = CategoricalNB()
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 print(scores_NBC)
 
-#accuracy: mean and 95% confidence level
+#mean and 95% confidence level
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
@@ -65,7 +75,7 @@ print(confusion_matrix(Diabetes_Category['target'], y_predict))
 
 
 ###naive bayes classification using top 10 features
-df_new=df[['Diabetes_binary','HighBP','HighChol','BMI','HeartDiseaseorAttack','GenHlth','PhysHlth','DiffWalk','Age','Education','Income']]
+df_new=df[['Diabetes_binary','HighBP','HighChol','BMI','PhysActivity','GenHlth','PhysHlth','DiffWalk','Age','Education','Income']]
 
 X = df_new.iloc[:,1:11]
 X.head()
@@ -94,7 +104,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 print(scores_NBC)
 
-#accuracy: mean and 95% confidence level
+#mean and 95% confidence level
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict_new= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
@@ -146,7 +156,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 scores_NBC = cross_val_score(NB_C, Diabetes_Category['data'], Diabetes_Category['target'], cv=5, scoring='accuracy')
 scores_NBC
 
-#accuracy: mean and 95% confidence level of accuracy
+#mean and 95% confidence level of accuracy
 print("Accuracy: %0.2f (+/- %0.2f)" % (scores_NBC.mean(), scores_NBC.std() * 2))
 
 y_predict_new2= NB_C.fit(Diabetes_Category['data'],Diabetes_Category['target']).predict(Diabetes_Category['data'])
