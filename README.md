@@ -1,7 +1,7 @@
 # Diabetas-Data-Analysis
 ***Diabetas Dataset Analysis Project***
 
-Welcome to our final group project for the CISC 4631 Data Mining course in Spring 2023. Our team consists of five members who are passionate about data mining and using it to solve real-world problems. In this project, we will be analyzing the Diabetas Dataset to identify patterns and relationships in the data, as well as to make predictions about future outcomes. We aim to draw conclusions and make recommendations for how the healthcare industry can use this information to improve diabetas prevention and treatment. We will also discuss the limitations of our analysis and potential areas for future research.
+Welcome to our group project on using data mining and machine learning to improve Diabetas treatment and detection. Our team consists of five members who are passionate about data mining and using it to solve real-world problems. In this project, we will be analyzing the Diabetas Dataset to identify patterns and relationships in the data, as well as to make predictions about future outcomes. We aim to draw conclusions and make recommendations for how the healthcare industry can use this information to improve diabetas prevention and treatment. We will also discuss the limitations of our analysis and potential areas for future research.
 
 ***Team Members***
 
@@ -31,8 +31,5 @@ Our group has started working on a Diabetas Dataset containing patient informati
 
 We will make our project code and documentation available on GitHub, where anyone can view our work and see our commitment to open-source practices. We also plan to create an mobile app based on this data mining to help diabetic patients make better healthcare decisions in the future.
 
-**Grading Policy**
-
-Our grade for this project will be based on the quality of the project (80%) and the performance of teamwork (20%). We will ensure that we meet all project requirements and exceed expectations. We will also use this project as an opportunity to learn and grow as data scientists and work towards building a successful career in this field.
-
+We will use this project as an opportunity to learn and grow as data scientists and work towards building a successful career in this field.
 Thank you for taking the time to review our project. We hope that you find our work as insightful. Please feel free to reach out to us if you have any questions or comments.
